@@ -1,0 +1,28 @@
+.btns {
+    margin: 20px;
+}
+
+.btns button {
+    background-color: #f1f8fc;
+    box-shadow: 0 0 10px rgba(49, 49, 49, 0.3);
+    padding-inline: 0.75rem;
+    padding-block: 0.1rem;
+    border-radius: 5px;
+}
+
+.btns button:hover {
+    background-color: rgba(227, 25, 25, 0.7);
+    transform: scale(1.09);
+    transition-duration: 200ms;
+}
+
+.mini-popup {
+    position: absolute;
+    height: 290px;
+    right: 30px;
+    bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
+}
