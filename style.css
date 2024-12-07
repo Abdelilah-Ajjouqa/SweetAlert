@@ -16,6 +16,7 @@
     transition-duration: 200ms;
 }
 
+/* sweet-success && warning */
 .mini-popup {
     position: absolute;
     height: 290px;
@@ -25,4 +26,22 @@
     flex-direction: column;
     justify-content: flex-end;
     overflow: hidden;
+}
+
+/* sweet-infos */
+.popupInfos {
+    position: absolute;
+    height: 30%;
+    width: 50%;
+    background-color: rgb(50, 63, 152);
+    border-radius: 6px;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+    padding: 1.25rem;
+    color: white;
+}
+
+.popupInfos ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }

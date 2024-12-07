@@ -6,17 +6,19 @@
     <link rel="stylesheet" href="./tailwind.config.js">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="./app.js" defer></script>
+    <script src="./Js/sweet-success_sweet-warning.js" defer></script>
+    <script src="./Js/sweet-infos.js" defer></script>
     <title>Sweet Alert</title>
 </head>
 <body>
     <div class="btns">
-        <!-- <button id="infos" onclick="boxAction()">Infos</button> -->
+        <button id="infos" onclick="popupAction(infosMsg)">Infos</button>
         <button id="success" onclick="boxAction(succsessMsg)">Success</button>
         <button id="warning" onclick="boxAction(warningMsg)">Warning</button>
         <!-- <button id="danger" onclick="boxAction()">Danger</button> -->
     </div>
-    
     <div id="mainBox" class="mini-popup"></div>
+    <div id="bigPopup" class="w-full flex justify-center">
+    </div>
 </body>
 </html>
