@@ -45,3 +45,36 @@
     flex-direction: column;
     gap: 10px;
 }
+
+.popupDanger {
+    width: 60%;
+    margin-inline: auto;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(128, 68, 68);
+    color: white;
+    box-shadow: 0 0 10px black;
+
+    & .title {
+        padding: 24px;
+        /* text-shadow: 0 0 4px rgba(15, 15, 15, 0.588); */
+    }
+
+    & .divBtn {
+        padding: 12px;
+        display: flex;
+        justify-content: center;
+
+        & .btn {
+            padding-inline: 12px;
+            font-size: 20px;
+            line-height: 1.75rem;
+            background-color: rgb(77, 141, 20);
+            border-radius: 4px;
+            box-shadow: 0 0 5px gray;
+            /* text-shadow: 0 0 4px yellowgreen; */
+        }
+    }
+}

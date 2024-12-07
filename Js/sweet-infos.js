@@ -23,6 +23,6 @@ function popupAction(message){
 
     const exit = document.getElementById("exit");
     exit.addEventListener("click", ()=>{
-        diiv.remove()
+        diiv.classList.add("hidden")
     })
 }
